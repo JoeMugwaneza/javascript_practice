@@ -4,7 +4,6 @@
   <title>JavaScript Practice</title>
 </head>
 <body>
-
 </body>
 <script type="text/javascript">
   // var pets = ["cow", "cat", "dogs"]
@@ -66,16 +65,72 @@
     // console.log(average)
 
 
-    for (var i = 1; i <= 100 ; i++) 
+    // for (var i = 1; i <= 100 ; i++) 
 
-    if (i % 3 === 0 && i % 5 === 0) {
-      console.log("FizzBuzz");
-    } else if ( i % 3 === 0) {
-      console.log("Fizz");
-    } else if ( i % 5 === 0) {
-      console.log("Buzz");
-    } else {
-      console.log(i);
-    }
+    // if (i % 3 === 0 && i % 5 === 0) {
+    //   console.log("FizzBuzz");
+    // } else if ( i % 3 === 0) {
+    //   console.log("Fizz");
+    // } else if ( i % 5 === 0) {
+    //   console.log("Buzz");
+    // } else {
+    // //   console.log(i);
+    // }
+
+    // function sumOfNumbers(numberOne, numberTwo) {
+    //   console.log(numberOne + numberTwo)
+    // }
+
+    // sumOfNumbers( 20, 30)
+
+  
+
+
+    // function arrayAverage (array) {
+
+    // var sum = 0;
+    // for (var i = 0; i < array.length; i++) {
+    //   sum += parseInt(array[i]);
+    // }
+
+    //   console.log(sum/array.length)
+
+    // };
+
+    // arrayAverage([5, 23, 98, 234, 1, 0, 3, 177]);
+
+    // var books = [
+    // {
+
+    //   title: "Things Fall Apart",
+    //   author: "Chinua Achebe",
+    //   isbn: "9780449453278",
+    //   pages: 224,
+    //   yearOfPublication: "1958"
+    // },
+
+    // {
+    //   title: "Liongate",
+    //   author: "bruce lee",
+    //   isbn: "978783653278",
+    //   pages: 56,
+    //   yearOfPublication: "1989"
+
+    // }];
+
+    // console.log(books)
+
+  var book = {
+      title: "Liongate",
+      author: "bruce lee",
+      isbn: "978783653278",
+      pages: 56,
+      yearOfPublication: "1989",
+      printDetails: function (){
+      
+      return this.title + this.author;}
+    };
+
+ console.log(book.printDetails())
 </script>
 </html>
